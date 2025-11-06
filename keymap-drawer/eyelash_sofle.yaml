@@ -106,10 +106,10 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB ON
   - RGB EFF
-  - RGB EFR
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
