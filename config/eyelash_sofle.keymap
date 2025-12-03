@@ -46,6 +46,15 @@
         };
     };
 
+    macros {
+        COPY: COPY {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp C>;
+            label = "COPY";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -64,11 +73,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2     &kp F3         &kp F4       &kp F5      &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &kp F11
-&trans      &trans     &kp PG_UP  &kp BACKSPACE  &trans       &mkp MB4    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp PG_DN  &kp HOME   &kp C_AC_COPY  &kp ENTER    &trans      &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp END    &trans     &trans         &kp K_PASTE  &trans      &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans     &trans     &trans         &trans       &trans      &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&kp GRAVE   &kp F1     &kp F2     &kp F3         &kp F4     &kp F5      &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &kp F11
+&trans      &trans     &kp PG_UP  &kp BACKSPACE  &trans     &mkp MB4    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp PG_DN  &kp HOME   &kp LC(C)      &kp ENTER  &trans      &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp END    &trans     &trans         &kp LC(V)  &trans      &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans     &trans     &trans         &trans     &trans      &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             display-name = "layer1";
