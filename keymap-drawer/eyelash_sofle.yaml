@@ -80,13 +80,13 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
   - Ctl+W
   - Gui+$$mdi:keyboard-space$$
   - HOME
   - Ctl+T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '?'
+  - PgUp
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
