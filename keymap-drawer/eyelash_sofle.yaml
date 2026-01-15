@@ -106,7 +106,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - {t: ',', s: <}
   - PgDn
   - Ctl+C
   - Ctl+V
