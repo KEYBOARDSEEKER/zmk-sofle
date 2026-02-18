@@ -17,29 +17,29 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - G
-  - $$mdi:arrow-down-bold$$
   - J
-  - L
-  - U
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
   - Y
-  - {t: ;, s: ':'}
+  - U
+  - I
+  - O
+  - P
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-caps$$
   - A
-  - R
   - S
-  - T
   - D
+  - F
+  - G
   - $$mdi:arrow-left-bold$$
   - H
   - N
   - E
-  - I
-  - O
+  - L
   - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
