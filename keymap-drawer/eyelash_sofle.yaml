@@ -17,9 +17,9 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - J
+  - F
   - R
-  - T
+  - G
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -31,8 +31,8 @@ layers:
   - A
   - S
   - D
-  - F
-  - G
+  - T
+  - J
   - $$mdi:arrow-left-bold$$
   - H
   - N
