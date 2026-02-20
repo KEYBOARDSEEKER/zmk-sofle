@@ -18,7 +18,7 @@ layers:
   - Q
   - W
   - F
-  - R
+  - J
   - G
   - $$mdi:arrow-down-bold$$
   - Y
@@ -29,10 +29,10 @@ layers:
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-caps$$
   - A
+  - R
   - S
-  - D
   - T
-  - J
+  - D
   - $$mdi:arrow-left-bold$$
   - H
   - N
