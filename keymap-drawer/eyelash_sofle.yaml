@@ -18,14 +18,14 @@ layers:
   - Q
   - W
   - F
-  - J
+  - P
   - G
   - $$mdi:arrow-down-bold$$
-  - Y
+  - J
   - U
   - I
+  - Y
   - O
-  - P
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-caps$$
   - A
