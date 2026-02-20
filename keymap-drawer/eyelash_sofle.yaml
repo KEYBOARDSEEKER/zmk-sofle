@@ -25,7 +25,7 @@ layers:
   - U
   - I
   - Y
-  - O
+  - {t: '''', s: '"'}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-caps$$
   - A
@@ -38,7 +38,7 @@ layers:
   - N
   - E
   - L
-  - {t: '''', s: '"'}
+  - O
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - Z
