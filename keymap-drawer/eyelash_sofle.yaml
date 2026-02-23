@@ -22,8 +22,8 @@ layers:
   - G
   - $$mdi:arrow-down-bold$$
   - J
+  - L
   - U
-  - I
   - Y
   - {t: '''', s: '"'}
   - {t: '-', s: _}
@@ -37,7 +37,7 @@ layers:
   - H
   - N
   - E
-  - L
+  - I
   - O
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-shift$$
