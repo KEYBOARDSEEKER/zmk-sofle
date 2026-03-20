@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - BT CLR ALL
+  - $$mdi:bluetooth-off$$
   - '?'
   - Ctl+W
   - Gui+$$mdi:keyboard-space$$
