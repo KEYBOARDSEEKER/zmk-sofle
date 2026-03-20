@@ -142,7 +142,7 @@ layers:
   - F7
   - F8
   - F9
-  - F10
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
